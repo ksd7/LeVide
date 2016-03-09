@@ -1,0 +1,48 @@
+<h2 id="Title">SFIB Game Help</h2>
+<h2>
+<a href="#rules">Game Rules</a><br>
+<a href="#buttons">Buttons</a><br>
+<a href="#options">Game Options</a><br>
+<a name="rules" id="rules">
+</h2>
+<h3>Game Rules</h3>
+A Sentence Fill-In-The-Blank (SFIB) game presents a sentence to a player with a single word missing which is denoted by _. for each letter of the blanked word.  For example, the following sentence shows a blanked word of six characters:
+<br><br>
+<b>Il est maintenant temps pour tous les bons _._._._._._ à venir à l'aide de leur pays.</b>
+<br><br>
+A player must use the virtual keyboard to enter the appropriate letters with correct capitalization (for words that begin a sentence or proper nouns), punctuation (including end of sentence punctuation), and language-specific special characters.  Special characters are accessed by holding one's finger on a particular letter which will bring up a menu of special characters for that letter.  The player must slide their finger to select the appropriate special character to insert it into the game text view.
+<br><br>
+A player achieves the most points by entering the correct word without ever pressing the hint button.  The first press of Hint will reveal the English version of the sentence.  Subsequent presses of Hint will reveal the leftmost letter of the word that has not yet been revealed.  Players are awarded points based on the perceived difficulty of the word (how long it is, how many special characters), how many letters they entered, and how many hints they took.
+</a>
+<br>
+<a name="buttons" id="buttons">
+<h3>Buttons</h3>
+<ul>
+<li><b>Skip</b></li>
+A player may skip the current sentence with no points awarded.
+<li><b>Options</b></li>
+Accesses the Game Options menu.  Any changes made to the game state will be relevant to the next sentence loaded.
+<li><b>Hint</b></li>
+A player may request a hint which will at first reveal the corresponding English sentence and subsequently reveal letters of the blanked word.
+<li><b>Keyboard On/Off</b></li>
+Toggles the virtual keyboard on/off.
+<li><b>Submit</b></li>
+Selected when a player wishes to submit their answer.
+</ul>
+</a>
+<br>
+<a name="options" id="options">
+<h3>Game Options</h3>
+<ul>
+<li><b>Change Difficulty Level</b></li>
+Provides a slider to allow the player to change the difficulty level from 1 (least difficult) to 5 (most difficult).
+<li><b>Flag This Sentence</b></li>
+Provides that the player may flag the currently loaded sentence as being wrong or as having inappropriate content.
+<li><b>Add A Sentence</b></li>
+Allows a player to add their own sentence to the game database.  This capability must be earned.  It is only available after a player has answered a particular number of sentences correctly.
+<li><b>View Syntax/Grammar Help</b></li>
+Brings up syntax and grammar help for the language of the current game.
+<li><b>View Player Stats</b></li>
+Brings up statistics for the current player for the current game.  Greyed out for players logged in as Guest.
+</ul>
+</a>

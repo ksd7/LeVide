@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="edu.uwf.ksd7.levide_1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+
+    <!-- Indicate LeVide App Activities below.  Point to App icon. -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/frog"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <!-- Start Activity is set up as the main launcher activity -->
+        <activity
+            android:name=".ActivityStart"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- Login, Help/About, and GameMenu Activities have Start Activity as parent -->
+        <activity
+            android:name=".ActivityLogin"
+            android:label="@string/title_activity_levide_login"
+            android:parentActivityName=".ActivityStart">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityStart"/>
+        </activity>
+        <activity
+            android:name=".ActivityHelpAbout"
+            android:label="@string/title_activity_levide_help_about"
+            android:parentActivityName=".ActivityStart"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityStart"/>
+        </activity>
+        <activity
+            android:name=".ActivityGameMenu"
+            android:label="@string/title_activity_levide_game_menu"
+            android:parentActivityName=".ActivityStart"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityStart"/>
+        </activity>
+        <!-- Game and Help Activities have GameMenu Activity as parent -->
+        <activity
+            android:name=".games.sfib.ActivityGame"
+            android:label="@string/title_activity_sfib_game"
+            android:parentActivityName=".ActivityGameMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityGameMenu"/>
+        </activity>
+        <activity
+            android:name=".games.sfib.ActivityHelp"
+            android:label="@string/title_activity_sfib_help"
+            android:parentActivityName=".ActivityGameMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityGameMenu"/>
+        </activity>
+        <!-- GameOptions Activity has Game Activity as parent -->
+        <activity
+            android:name=".games.sfib.ActivityGameOptions"
+            android:label="@string/title_activity_sfib_game_options"
+            android:parentActivityName=".games.sfib.ActivityGame"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".games.sfib.ActivityGame"/>
+        </activity>
+        <!-- AddSent, Difficulty, Stats, GrammarHelp Activities have GameOptions as parent -->
+        <activity
+            android:name=".games.sfib.ActivityAddSent"
+            android:label="@string/title_activity_sfib_add_sent"
+            android:parentActivityName=".games.sfib.ActivityGameOptions"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".games.sfib.ActivityGameOptions"/>
+        </activity>
+        <activity
+            android:name=".games.sfib.ActivityDifficulty"
+            android:label="@string/title_activity_sfib_difficulty"
+            android:parentActivityName=".games.sfib.ActivityGameOptions"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".games.sfib.ActivityGameOptions"/>
+        </activity>
+        <activity
+            android:name=".games.sfib.ActivityPlayerStats"
+            android:label="@string/title_activity_sfib_player_stats"
+            android:parentActivityName=".games.sfib.ActivityGameOptions"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".games.sfib.ActivityGameOptions"/>
+        </activity>
+        <activity
+            android:name=".games.sfib.ActivityGrammarHelp"
+            android:label="@string/title_activity_sfib_grammar_help"
+            android:parentActivityName=".games.sfib.ActivityGameOptions"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".games.sfib.ActivityGameOptions"/>
+        </activity>
+
+    </application>
+
+</manifest>

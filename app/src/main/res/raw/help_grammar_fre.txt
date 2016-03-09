@@ -1,0 +1,122 @@
+<h2 id="Title">French Syntax/Grammar Help</h2>
+<h2>
+<a href="#nouns">Nouns</a><br>
+<a href="#verbs">Verbs</a><br>
+<a href="#adverbs">Adverbs</a><br>
+<a href="#adjectives">Adjectives</a><br>
+<a href="#articles">Articles</a><br>
+</h2>
+<a name="nouns" id="nouns">
+<h3>Nouns</h3>
+<li><b>Plural of Nouns</b></li>
+<table border>
+<tr><td>SINGULAR</td><td>PLURAL</td></tr>
+<tr><td>le musée, museum<br>
+l'assiette, plate</td>
+<td>les musée<b>s</b><br>les assiette<b>s</b>
+</table>
+Nouns ending in <b>s</b>, <b>x</b>, or <b>z</b> are unchanged.<br>
+<table border>
+<tr><td>le mois, month</td><td>les mois</td>
+<tr><td>le prix, prize</td><td>les prix</td>
+<tr><td>le nez, nose</td><td>les nez</td>
+</table>
+Nouns ending in <b>eau</b> and <b>eu</b> add x to form plural. Nouns ending in <b>al</b> change
+to <b>aux</b> to form plural.<br>
+<table border>
+<tr><td>un drapeau, flag<br>
+le neveu, nephew<br>
+le métal, metal</td>
+<td>les drapeau<b>x</b><br>
+les neveu<b>x</b><br>
+les mét<b>aux</b></td></tr>
+</table>
+</ul>
+</a>
+<a name="verbs" id="verbs">
+<h3>Verbs</h3>
+<ul>
+<li><b>-er verbs</b></li>
+expliquer, to explain
+<table border>
+<tr><td>j'expliqu<b>e</b></td><td>nous expliqu<b>ons</b></td></tr>
+<tr><td>tu expliqu<b>es</b></td><td>vous expliqu<b>ez</b></td></tr>
+<tr><td>il (elle) expliqu<b>e</b></td><td>ils (elles) expliqu<b>ent</b></td></tr>
+</table>
+<li><b>-ir verbs</b></li>
+réussir, to succeed
+<table border>
+<tr><td>je réuss<b>is</b></td><td>nous réuss<b>issons</b></td></tr>
+<tr><td>tu réuss<b>is</b></td><td>vous réuss<b>issez</b></td></tr>
+<tr><td>il (elle) réuss<b>it</b></td><td>ils (elles) réuss<b>issent</b></td></tr>
+</table>
+<li><b>-re verbs</b></li>
+défendre, to defend
+<table border>
+<tr><td>je défend<b>s</b></td><td>nous défend<b>ons</b></td></tr>
+<tr><td>tu défend<b>s</b></td><td>vous défend<b>ez</b></td></tr>
+<tr><td>il (elle) défend</td><td>ils (elles) défend<b>ent</b></td></tr>
+</table>
+<li><b>irregular verbs</b></li>
+avoir, to have
+<table border>
+<tr><td>j'ai</td><td>nous avons</td></tr>
+<tr><td>tu as</td><td>vous avez</td></tr>
+<tr><td>il (elle) a</td><td>ils (elles) ont</td></tr>
+</table>
+etre, to be
+<table border>
+<tr><td>je suis</td><td>nous sommes</td></tr>
+<tr><td>tu es</td><td>vous êtes</td></tr>
+<tr><td>il (elle) est</td><td>ils (elles) sont</td></tr>
+</table>
+</ul>
+</a>
+<a name="adverbs" id="adverbs">
+<h3>Adverbs</h3>
+Derivative adverbs are formed by adding <b>ment</b> to the corresponding adjective at the vowel.
+<table border>
+<tr><td>absolute</td><td>absolument</td></tr>
+<tr><td>autre</td><td>autrement</td></tr>
+<tr><td>vrai</td><td>vraiment</td></tr>
+</table>
+</a>
+<a name="adjectives" id="adjectives">
+<h3>Adjectives</h3>
+Most descriptive adjectives follow the noun.
+<table border>
+<tr><td>une porte <b>secrète</b></td><td>a secret door</td></tr>
+<tr><td>les vins <b>blancs</b></td><td>the white wines</td></tr>
+</table>
+Some short descriptive adjectives precede the noun.
+<table border>
+<tr><td>beau<br>bon<br>court<br>gentil<br>grand<br>gros<br>jeune</td>
+<td>joli<br>long<br>mauvais<br>nouveau<br>petit<br>vieux<br>vilain</td>
+</tr>
+</table>
+</a>
+<a name="articles" id="articles">
+<h3>Articles</h3>
+<li><b>definite articles</b></li>
+<table border>
+<tr><td></td><td>MASCULINE</td><td>FEMININE</td></tr>
+<tr><td>SINGULAR</td><td>le garçon, the boy<br>l'homme, the man</td><td>la femme, the woman
+<br>
+l'horloge, the clock</td></tr>
+<tr><td>PLURAL</td><td>les hommes, the men<br>les endroits, the places</td>
+<td>les femmes, the women<br>les horloges, the clocks
+</td></tr>
+</table>
+<li><b>indefinite articles</b></li>
+<table border>
+<tr><td>un ami, a friend</td><td>une tante, an aunt</td></tr>
+</table>
+<li><b>contractions with the definite article</b></li>
+<table border>
+<tr><td>à + le savant = <b>au</b> savant<br>
+à + les endroits = <b>aux</b> endroits</td>
+<td>de + le savant = <b>du</b> savant<br>
+de + les endroits = <b>des</b> endroits</td></tr>
+</table>
+</ul>
+</a>

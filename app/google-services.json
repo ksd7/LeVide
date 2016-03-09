@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_id": "levide-86d9d",
+    "project_number": "891279800358",
+    "name": "Levide"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891279800358:android:8c7b04968d46aa26",
+        "client_id": "android:edu.uwf.ksd7.levide_1",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "edu.uwf.ksd7.levide_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891279800358-3hqulp5uo0l1l139v2pdum53ki0981ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.uwf.ksd7.levide_1",
+            "certificate_hash": "28A633AF09BDA1C36404726219A444CDB3A65B8B"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

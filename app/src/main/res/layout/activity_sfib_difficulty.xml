@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.5">
+        <TextView
+                  android:id="@+id/diff1"
+                  android:textSize="25sp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="15sp"
+                  android:text="LOW"
+            />
+
+        <TextView
+                  android:id="@+id/diff3"
+                  android:textSize="25sp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="MED"
+            />
+
+        <TextView
+                  android:id="@+id/diff5"
+                  android:textSize="25sp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="15sp"
+                  android:text="HIGH"
+            />
+
+        <SeekBar android:id="@+id/diffSlider"
+                 android:max="4"
+                 android:layout_weight="0"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="15sp"
+                 android:layout_marginLeft="15sp"
+                 android:layout_below="@id/diff3"
+            />
+
+        </RelativeLayout>
+
+    <Button
+        android:id="@+id/game_sfib_opt_diff_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diffSlider"
+        android:background="@drawable/rounded_corner"
+        android:text="SUBMIT"
+        />
+
+</LinearLayout>

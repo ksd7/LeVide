@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:weightSum="3" >
+    <Button
+        android:id="@+id/start_but_login"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/start_but_login"/>
+    <Button
+        android:id="@+id/start_but_guest"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/start_but_guest"/>
+    <Button
+        android:id="@+id/start_but_help_about"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/start_but_help_about"/>
+</LinearLayout>

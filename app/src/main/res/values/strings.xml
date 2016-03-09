@@ -1,0 +1,79 @@
+<resources>
+
+
+    <!-- LEVIDE START SCREEN -->
+    <string name="app_name">LeVide</string>
+    <string name="start_but_login">Login with Google Acct</string>
+    <string name="start_but_guest">Login as Guest</string>
+    <string name="start_but_help_about">Help/About LeVide</string>
+
+    <!-- LEVIDE HELP/ABOUT SCREEN -->
+    <string name="title_activity_levide_help_about">Help/About LeVide</string>
+
+    <!-- LEVIDE LOGIN SCREEN -->
+    <string name="title_activity_levide_login">Sign in</string>
+    <string name="login_signed_out">Signed out</string>
+    <string name="login_desc_google_icon">Google Logo</string>
+    <string name="login_signed_in_fmt">Signed in as: %s</string>
+    <string name="login_title_text">Google Sign-In</string>
+
+    <!-- LEVIDE GAME MENU SCREEN -->
+    <string name="title_activity_levide_game_menu">Game Menu</string>
+    <string name="game_menu_but_sfib_help">Help</string>
+    <string name="game_menu_but_sfib_french">French SFIB</string>
+    <string name="game_menu_but_sfib_spanish">Spanish SFIB</string>
+
+    <!-- SFIB GAME HELP SCREEN -->
+    <string name="title_activity_sfib_help">SFIB Game Help</string>
+
+    <!-- SFIB GAME SCREEN -->
+    <string name="title_activity_sfib_game">SFIB Game</string>
+    <string name="game_sfib_options_button">Options</string>
+    <string name="game_sfib_submit_button">Submit</string>
+    <string name="game_sfib_skip_button">Skip</string>
+    <string name="game_sfib_hint_button">Hint</string>
+    <string name="game_sfib_score">%d</string>
+    <string name="game_sfib_toggle">Keyboard\nOn/Off</string>
+    <string name="game_sfib_for_sent_blank">
+        Il est maintenant temps pour tous les bons _._._._._._ à venir à l\'aide de leur pays.</string>
+    <string name="game_sfib_for_sent">Il est maintenant temps pour tous les bons hommes à venir à l\'aide de leur pays.</string>
+    <string name="game_sfib_eng_sent">Now is the time for all good men to come to the aid of their country.</string>
+    <string name="game_sfib_ans">hommes</string>
+
+    <!-- SFIB GAME OPTIONS SCREEN -->
+    <string name="title_activity_sfib_game_options">SFIB Game Options</string>
+    <string name="game_opt_but_diff">Change Difficulty Level</string>
+    <string name="game_opt_but_flag">Flag This Sentence</string>
+    <string name="game_opt_but_add_sent">Add A Sentence</string>
+    <string name="game_opt_but_grammar_help">View Syntax/Grammar Help</string>
+    <string name="game_opt_but_player_stats">View Player Stats</string>
+
+    <!-- SFIB GAME DIFFICULTY SCREEN -->
+    <string name="title_activity_sfib_difficulty">Change Game Difficulty</string>
+
+    <!-- SFIB GAME ADD SENTENCE SCREEN -->
+    <string name="title_activity_sfib_add_sent">Add Sentenced to DB</string>
+    <string name="add_sent_but_sent_eng">ENGLISH SENTENCE\n(tap for focus)</string>
+    <string name="add_sent_but_sent_for">FOREIGN SENTENCE\n(tap for focus)</string>
+    <string name="add_sent_but_submit">SUBMIT</string>
+
+    <!-- SFIB GAME GRAMMAR HELP SCREEN -->
+    <string name="title_activity_sfib_grammar_help">Grammar/Syntax Help</string>
+
+    <!-- SFIB GAME GAME STATS SCREEN -->
+    <string name="title_activity_sfib_player_stats">Player Stats</string>
+    <string name="stats_player_label">SFIB %s</string>
+    <string name="stats_player">Ken Dieudonné</string>
+    <string name="stats_cum_score_label">Cumulative Score</string>
+    <string name="stats_cum_score">12345</string>
+    <string name="stats_avg_diff_label">Avg Difficulty</string>
+    <string name="stats_avg_diff">1.7</string>
+    <string name="stats_avg_guess_label">Avg Num Guesses</string>
+    <string name="stats_avg_guess">1.7</string>
+    <string name="stats_avg_skip_label">Avg Num Skips</string>
+    <string name="stats_avg_skip">1.7</string>
+    <string name="stats_avg_hint_label">Avg Num Hints</string>
+    <string name="stats_avg_hint">1.7</string>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<h2 id="Title">LeVide Help/About</h2>
+<h2>
+<a href="#about_apphelp">About LeVide</a><br>
+<a href="#License">License</a><br>
+<a href="#feedback">Feedback</a><br>
+</h2>
+<a name="about_apphelp" id="about_apphelp">
+<h3>About LeVide</h3>
+LeVide is an educational game for foreign language learning that is made up of game modules that are accessed from the Game Menu screen.  To reach the Game Menu screen, a player may either login with valid Google credentials or login as a guest.  Guest login results in game statistics for that player not being kept.  Each game on the Game Menu screen provides an educational game in a particular foreign language.  A separate Help is provided for each game.
+</a>
+<br>
+<a name="license" id="license">
+<h3>License</h3>
+This software is licensed under the GNU Lesser General Public License. Information can be found at the following link:
+<br>
+<a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" id="GNU">
+License Information</a>
+<br>
+<a name="feedback" id="feedback">
+<h3>Feedback</h3>
+Any comments, feedback, suggestions on LeVide please write to us using the following link:
+<br>
+<a href="mailto:fake@this.com" id="email">Contact support</a>
+</a>
+<br>

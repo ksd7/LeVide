@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:id="@+id/top_layout">
+
+    <Button
+        android:id="@+id/add_sent_but_sent_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:textColor="#ff2d1dff"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:text="@string/add_sent_but_sent_eng"
+        />
+
+    <Button
+        android:id="@+id/add_sent_but_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="5sp"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="@string/add_sent_but_submit"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_sent_but_sent_eng"
+        android:id="@+id/scroll_view">
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:layout_below="@id/top_layout">
+
+            <EditText
+                android:id="@+id/add_sent_eng_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:layout_marginLeft="5sp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:cursorVisible="true"
+                />
+            <Button
+                android:id="@+id/add_sent_but_sent_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:layout_marginLeft="5sp"
+                android:textColor="#ff2d1dff"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:background="@drawable/rounded_corner"
+                android:layout_below="@+id/add_sent_eng_sent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/add_sent_but_sent_for"
+                />
+            <Button
+                android:id="@+id/add_sent_but_toggle_keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:layout_marginRight="5sp"
+                android:textColor="#000000"
+                android:background="@drawable/rounded_corner"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/add_sent_eng_sent"
+                android:layout_alignTop="@id/add_sent_but_sent_for"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="Keyboard\nOn/Off"/>
+            <EditText
+                android:id="@+id/add_sent_for_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:layout_marginLeft="5sp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:gravity="left"
+                android:inputType="textMultiLine|textNoSuggestions|textVisiblePassword"
+                android:singleLine="false"
+                android:layout_below="@+id/add_sent_but_sent_for"
+                android:textCursorDrawable="@null"
+                android:textColor="#ff0004"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:weightSum="4">
+
+    <Button
+        android:id="@+id/game_opt_but_diff"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/game_opt_but_diff"/>
+
+    <Button
+        android:id="@+id/game_opt_but_flag"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/game_opt_but_flag"/>
+
+    <Button
+        android:id="@+id/game_opt_but_add_sent"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/game_opt_but_add_sent"/>
+
+    <Button
+        android:id="@+id/game_opt_but_grammar_help"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/game_opt_but_grammar_help"/>
+
+    <Button
+        android:id="@+id/game_opt_but_player_stats"
+        android:layout_width="200sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/game_opt_but_player_stats"/>
+
+</LinearLayout>
