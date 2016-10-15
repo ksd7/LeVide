@@ -29,15 +29,15 @@ public final class ConstsSFIB {
 
 
     public static final String FETCH_SENT_URL      =
-        " http://levide.netau.net/sfib/get_json_sent.php";
+        " http://levidegame.com/sfib/get_json_sent.php";
     public static final String FETCH_STATS_URL     =
-        " http://levide.netau.net/sfib/get_json_stats.php";
+        " http://levidegame.com/sfib/get_json_stats.php";
     public static final String POST_NEW_SENT_URL   =
-        " http://levide.netau.net/sfib/add_sent.php";
+        " http://levidegame.com/sfib/add_sent.php";
     public static final String POST_SENT_FLAG_URL  =
-        " http://levide.netau.net/sfib/flag_sent.php";
+        " http://levidegame.com/sfib/flag_sent.php";
     public static final String POST_STATS_URL      =
-        " http://levide.netau.net/sfib/post_json_stats.php";
+        " http://levidegame.com/sfib/post_json_stats.php";
 
 /*
     public static final String FETCH_SENT_URL      =
